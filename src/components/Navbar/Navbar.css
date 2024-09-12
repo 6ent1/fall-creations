@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  padding: 10px 20px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.navbar__items {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background-color: #212121;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.navbar__item {
+  padding: 5px 10px;
+  border-radius: 9px;
+  background-color: #a3340b;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar__item:nth-child(3) {
+  margin-left: auto;
+}
+.navbar__item:hover {
+  background-color: #842d0e;
+}
