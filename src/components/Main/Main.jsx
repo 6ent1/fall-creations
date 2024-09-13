@@ -8,7 +8,7 @@ function Main() {
         Main
         <EventCard image="https://www.canr.msu.edu/contentAsset/image/a934ada7-5812-4669-ab1a-573e28d8547e/fileAsset/filter/Resize,Jpeg/resize_w/750/jpeg_q/80" alt="business-image" title="Business Title" 
           description="Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings Buesiness Event THings "
-          location="Miami, Florida" rating="5 Stars"/>      
+          location="Miami, Florida" rating="5.0 Stars"/>      
         </main>
     </>
   );

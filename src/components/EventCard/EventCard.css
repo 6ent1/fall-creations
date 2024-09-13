@@ -1,7 +1,7 @@
 .card {
-   border: 1px solid black; 
+   border: 1px solid rgb(188, 108, 37); 
    border-radius: 10px;
-   box-shadow: 5px 5px 5px black;
+   /* box-shadow: 5px 5px 5px black; */
    text-align: center;
    max-width: 350px;
    min-height: 300px;
@@ -10,17 +10,23 @@
    background-color: rgb(212, 91, 18);
 }
 
-.card-img {
+.card:hover {
+    border: 3px solid rgb(221, 161, 94);
+    transition: border 0.2s ease-in;
+}
+
+.card__img {
    width: 100%;
    display: block;
    object-fit: cover;
 }
 
-.card-content {
-    padding-bottom: 10px;
+.card__content {
+    padding-bottom: 5px;
+    padding: 0 5px 5px 5px;
 }
 
-.card-title {
+.card__title {
   font-size: 24px;
   line-height: 1.5;
   font-weight: 500;
@@ -29,7 +35,7 @@
   margin: 10px 0 0 0;
 }
 
-.card-description {
+.card__description {
     font-size: 12px;
     line-height: 1.5;
     font-weight: 400;
@@ -40,28 +46,59 @@
     text-overflow: ellipsis;
 }
 
-.card-description:hover {
+.card__description:hover {
     white-space: normal; 
     max-height: 100px;
     overflow-y: auto;
 }
 
 /* Edits the look of the scrollbar when hovered over */
-.card-description::-webkit-scrollbar {
+.card__description::-webkit-scrollbar {
     width: 8px; 
 }
 
-.card-description::-webkit-scrollbar-track {
+.card__description::-webkit-scrollbar-track {
     background: rgb(254, 250, 224);
     border-radius: 10px; 
 }
 
-.card-description::-webkit-scrollbar-thumb {
+.card__description::-webkit-scrollbar-thumb {
     background: rgb(221, 161, 94);
     border-radius: 10px; 
     border: 2px solid rgb(254, 250, 224);
 }
 
-.card-description::-webkit-scrollbar-thumb:hover {
+.card__description::-webkit-scrollbar-thumb:hover {
     background: rgb(188, 108, 37); 
+}
+
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    padding: 0;
+    color: rgb(96, 60, 20);
+    border-top: 1px rgba(33, 33, 33, 0.4) solid;
+}
+
+.card__location-img {
+    height: 12px;
+    width: 12px;
+    color: rgb(96, 60, 20);
+}
+
+.card__location {
+    display: flex;
+    align-items: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.card__location-name {
+    margin: 0;
+}
+
+.card__rating {
+    margin: 0;
 }
