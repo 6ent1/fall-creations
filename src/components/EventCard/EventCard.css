@@ -1,0 +1,67 @@
+.card {
+   border: 1px solid black; 
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px black;
+   text-align: center;
+   max-width: 350px;
+   min-height: 300px;
+   max-height: 600px;
+   display: inline-block;
+   background-color: rgb(212, 91, 18);
+}
+
+.card-img {
+   width: 100%;
+   display: block;
+   object-fit: cover;
+}
+
+.card-content {
+    padding-bottom: 10px;
+}
+
+.card-title {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: -0.16px;
+  color: rgb(96, 60, 20);
+  margin: 10px 0 0 0;
+}
+
+.card-description {
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 10px;
+    color: rgb(96, 60, 20);
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-description:hover {
+    white-space: normal; 
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+/* Edits the look of the scrollbar when hovered over */
+.card-description::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.card-description::-webkit-scrollbar-track {
+    background: rgb(254, 250, 224);
+    border-radius: 10px; 
+}
+
+.card-description::-webkit-scrollbar-thumb {
+    background: rgb(221, 161, 94);
+    border-radius: 10px; 
+    border: 2px solid rgb(254, 250, 224);
+}
+
+.card-description::-webkit-scrollbar-thumb:hover {
+    background: rgb(188, 108, 37); 
+}
