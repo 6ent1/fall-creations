@@ -1,3 +1,4 @@
+import footerLogo from "../../assets/FallLeaves.svg";
 import "./Footer.css";
 
 function Footer() {
@@ -5,11 +6,15 @@ function Footer() {
     <>
       <footer className="footer">
         <div className="footer__columns">
-          <img
-            src="..\src\assets\footer_logo.svg"
-            alt="Footer logo"
-            className="footer__logo"
-          />
+          <div className="footer__logo">
+            <img
+              src={footerLogo}
+              alt="Footer logo"
+              className="footer__logo_image"
+            />
+            <h2 className="footer__logo_text">Fall Voyage</h2>
+          </div>
+
           {/* <h3 className="logo__content">Fall Voyage</h3> */}
           <div className="footer__column">
             <h3 className="footer__header">Co-Creators</h3>
