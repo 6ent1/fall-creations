@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import modalLocationPic from "../../assets/modal-location.svg";
 import modalStarPic from "../../assets/modal-star.svg";
-import starPic from "../../assets/star.svg";
 import "./EventCard.css";
 
 function EventCard({
@@ -77,7 +76,11 @@ function EventCard({
             </div>
             <div className="card__rating">
               <p className="card__rating-number">{currentRating.toFixed(1)}</p>
-              <img src={starPic} alt="star-img" className="card__star-img" />
+              <img
+                src={modalStarPic}
+                alt="star-img"
+                className="card__star-img"
+              />
             </div>
           </div>
         </div>

@@ -2,8 +2,20 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  background-color: rgb(29, 28, 28);
-  padding: 30px;
+  background-color: var(--background);
+  padding: 110px;
+  gap: 30px;
+}
+
+.main__filters {
+  display: flex;
+  gap: 20px;
+}
+
+.main__filters_label {
+  display: flex;
+  gap: 10px;
+  color: var(--text);
 }

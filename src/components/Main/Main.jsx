@@ -37,8 +37,8 @@ function Main() {
     <>
       <main className="main">
         {/* Filter section */}
-        <div className="filters">
-          <label>
+        <div className="main__filters">
+          <label className="main__filters_label">
             Location:
             <select
               value={locationFilter}
@@ -53,7 +53,7 @@ function Main() {
             </select>
           </label>
 
-          <label>
+          <label className="main__filters_label">
             Type of Event:
             <select
               value={typeFilter}
@@ -68,7 +68,7 @@ function Main() {
             </select>
           </label>
 
-          <label>
+          <label className="main__filters_label">
             Minimum Rating:
             <input
               type="number"

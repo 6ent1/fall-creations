@@ -21,6 +21,26 @@
   scroll-behavior: smooth;
 }
 
+:root {
+  --text: #040316;
+  --background: #fbfbfe;
+  --background-transparent: #fdfdfda8;
+  --card-background: #fbfbfb;
+  --primary: #eb5114;
+  --secondary: #fedacd;
+  --accent: #f63113;
+}
+
+[data-theme="dark"] {
+  --text: #eae9fc;
+  --background: #010104;
+  --background-transparent: #212121a8;
+  --card-background: #212121;
+  --primary: #eb5114;
+  --secondary: #320e01;
+  --accent: #ec2709;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -29,6 +49,7 @@ a {
 button {
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 /* * {

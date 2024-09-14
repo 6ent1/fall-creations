@@ -1,19 +1,21 @@
 .card {
-  border: 3px solid #ec2709;
+  border: 3px solid #320e01;
   border-radius: 10px;
   text-align: center;
   max-width: 350px;
   min-height: 300px;
   max-height: 600px;
   display: inline-block;
-  background-color: #eb5114;
+  background-color: var(--card-background);
   overflow: hidden;
   margin: 10px;
+  transition: border 0.2s ease-in, transform 0.2s ease-in;
 }
 
 .card:hover {
-  border: 3px solid rgb(221, 161, 94);
-  transition: border 0.2s ease-in;
+  border: 3px solid #f63113;
+  transition: border 0.2s ease-in, transform 0.2s ease-in;
+  transform: scale(1.05);
 }
 
 .card__img {
@@ -35,7 +37,7 @@
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: -0.16px;
-  color: rgb(96, 60, 20);
+  color: var(--text);
   margin: 10px 0 0 0;
 }
 
@@ -44,7 +46,7 @@
   line-height: 1.5;
   font-weight: 400;
   margin: 10px;
-  color: rgb(96, 60, 20);
+  color: var(--text);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -55,7 +57,7 @@
   justify-content: space-between;
   margin: 8px;
   padding: 0;
-  color: rgb(96, 60, 20);
+  color: var(--text);
   border-top: 1px rgba(33, 33, 33, 0.4) solid;
   font-size: 14px;
 }
@@ -63,7 +65,7 @@
 .card__location-img {
   height: 12px;
   width: 12px;
-  color: rgb(96, 60, 20);
+
   margin-right: 5px;
 }
 
@@ -107,6 +109,7 @@
 }
 
 .modal__container {
+  max-height: 70vh;
   font-weight: 400;
   background: transparent;
   max-width: 500px;
@@ -114,7 +117,7 @@
   box-sizing: border-box;
   position: relative;
   border-radius: 8px;
-  background-color: rgba(33, 33, 33, 1);
+  background-color: var(--card-background);
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -135,8 +138,8 @@
 
 .modal__img {
   max-width: 100%;
-  max-height: 80vh;
-  object-fit: contain;
+  max-height: 200px;
+  object-fit: cover;
   width: 100%;
   display: block;
 }
@@ -145,14 +148,17 @@
   font-size: 22px;
   margin: 0;
   padding: 10px 0 0 0;
+  color: var(--text);
 }
 
 .modal__description {
+  padding: 15px;
   font-size: 14px;
   margin-bottom: 0;
-  max-height: 200px;
+  max-height: 100px;
   white-space: normal;
   overflow-y: auto;
+  color: var(--text);
 }
 
 /* Edits the look of the scrollbar when hovered over */
@@ -187,6 +193,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: var(--text);
 }
 
 .modal__location {
