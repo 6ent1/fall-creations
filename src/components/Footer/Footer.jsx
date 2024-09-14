@@ -31,7 +31,7 @@ function Footer() {
             <li className="footer__list-items">
               <a href="" className="authors">
                 <img src="" alt="" className="footer__icons" />
-                Harshi
+                Harshi S.
               </a>
             </li>
           </ul>
