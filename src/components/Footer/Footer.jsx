@@ -8,9 +8,9 @@ function Footer() {
           <img
             src="..\src\assets\footer_logo.svg"
             alt="Footer logo"
-            className="logo"
+            className="footer__logo"
           />
-          <h3 className="logo__content">Fall Voyage</h3>
+          {/* <h3 className="logo__content">Fall Voyage</h3> */}
           <div className="footer__column">
             <h3 className="footer__header">Co-Creators</h3>
             <ul className="footer__list">

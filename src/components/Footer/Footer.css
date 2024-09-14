@@ -1,19 +1,21 @@
 .footer {
   background-image: linear-gradient(180deg, rgb(235, 81, 20), rgb(236, 39, 9));
   margin: 0;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   padding: 50px 80px 50px;
 }
 .footer__columns {
   display: flex;
   justify-content: space-between;
 }
-.logo {
-  height: 400px;
-  width: 400px;
+.footer__logo {
+  width: 300px;
+  padding: 0;
+  margin: 0;
+  /* width: 400px; */
 }
 .footer__column {
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 .footer__column_authors {
 }
