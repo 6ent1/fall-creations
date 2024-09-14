@@ -1,11 +1,20 @@
 .header {
-  /* display: flex; */
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
-  /* justify-content: center; */
-  /* align-items: center; */
-  background-color: rgb(123, 101, 101);
-  background-image: url(src/images/jon-tyson-DwQVcudRcS8-unsplash.jpg);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.372);
+  /* background: linear-gradient(
+      0deg,
+      rgba(32, 32, 32, 0.58),
+      rgba(102, 102, 102, 0.3)
+    ),
+    url(src/images/jon-tyson-DwQVcudRcS8-unsplash.jpg); */
   background-size: cover;
+  width: 100%;
+  position: relative;
 }
 
 .header__title {
@@ -19,4 +28,10 @@
   padding: 0;
   margin: 0;
   width: 50%;
+}
+
+.header__video {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
 }

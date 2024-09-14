@@ -6,6 +6,7 @@
   width: 100%;
   margin: 0 auto;
   justify-content: center;
+  z-index: 5;
 }
 
 .navbar__items {
@@ -14,9 +15,11 @@
   gap: 20px;
   justify-content: space-between;
   padding: 20px 30px;
-  background-color: #212121;
+  background-color: #212121a8;
   border-radius: 20px;
   width: 80%;
+  -webkit-backdrop-filter: blur(15px) !important;
+  backdrop-filter: blur(15px) !important;
 }
 
 .navbar__item {
