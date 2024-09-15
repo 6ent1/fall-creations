@@ -30,3 +30,7 @@ To run the project on your browser run the following command:
 ```bash
   npm run dev
 ```
+
+## Deployed website link
+
+[Fall Voyage](https://fallvoyage.gentidev.com)
