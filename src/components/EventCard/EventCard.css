@@ -21,7 +21,6 @@
 .card__img {
   width: 100%;
   aspect-ratio: 3/2;
-  /* height: 300px; */
   display: block;
   object-fit: cover;
   cursor: pointer;
@@ -65,7 +64,6 @@
 .card__location-img {
   height: 12px;
   width: 12px;
-
   margin-right: 5px;
 }
 
@@ -158,6 +156,10 @@
   max-height: 100px;
   white-space: normal;
   overflow-y: auto;
+  color: var(--text);
+}
+
+.modal__submit_button {
   color: var(--text);
 }
 

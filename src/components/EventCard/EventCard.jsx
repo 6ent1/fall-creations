@@ -24,7 +24,6 @@ function EventCard({
 
   function closeModal() {
     setModalState(false);
-    setRatingSubmitted(false); // Reset the submission state when closing modal
   }
 
   const handleRatingInputChange = (e) => {

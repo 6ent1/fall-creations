@@ -38,6 +38,15 @@ export const events = [
       "https://cdn.pixabay.com/photo/2021/09/20/16/39/pumpkins-6641293_1280.jpg",
   },
   {
+    title: "Autumn Lights Show",
+    description: "A stunning light display showcasing the beauty of fall.",
+    location: "Colorado",
+    type: "Show",
+    initialRating: 3,
+    picture:
+      "https://cdn.pixabay.com/photo/2021/09/20/16/39/pumpkins-6641293_1280.jpg",
+  },
+  {
     title: "Wine Tasting",
     description: "Sample the best wines from local vineyards.",
     location: "California",
@@ -53,6 +62,6 @@ export const events = [
     type: "Tasting",
     initialRating: 4,
     picture:
-      "https://cdn.pixabay.com/photo/2021/09/20/16/39/pumpkins-6641293_1280.jpg",
+      "https://cdn.pixabay.com/photo/2013/05/15/06/10/autumn-111315_1280.jpg",
   },
 ];

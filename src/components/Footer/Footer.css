@@ -1,22 +1,23 @@
 .footer {
   background-image: linear-gradient(180deg, rgb(235, 81, 20), rgb(236, 39, 9));
   margin: 0;
-  /* opacity: 0.9; */
   padding: 50px;
 }
+
 .footer__columns {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+
 .footer__logo {
   display: flex;
   position: relative;
 }
+
 .footer__logo_image {
   width: 30vw;
   padding: 0;
   margin: 0;
-  /* width: 400px; */
 }
 
 .footer__logo_text {
@@ -30,28 +31,21 @@
   width: 100%;
 }
 
-.footer__column {
-  /* padding-top: 100px; */
-}
-.footer__column_authors {
-}
 .footer__header {
   margin: 0 0 20px;
 }
+
 .footer__list {
   padding: 0;
   margin: 0;
 }
+
 .footer__list-items {
   list-style-type: none;
   padding-bottom: 5px;
 }
-.authors {
-}
-.footer__icons {
-}
+
 .footer__copyright {
   margin: 0;
   padding-top: 40px;
-  padding-bottom: 0;
 }

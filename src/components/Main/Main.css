@@ -19,3 +19,9 @@
   gap: 10px;
   color: var(--text);
 }
+
+@media screen and (max-width: 800px) {
+  .main__filters {
+    flex-direction: column;
+  }
+}

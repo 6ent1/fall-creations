@@ -46,7 +46,7 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <p className="footer__copyright">&copy;2024 Fall Creations</p>
+        <p className="footer__copyright">&copy;2024 Fall Voyage</p>
       </footer>
     </>
   );

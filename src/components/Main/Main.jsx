@@ -16,6 +16,7 @@ function Main() {
     updatedEvents[index].numRatings = newNumRatings;
     setEvents(updatedEvents);
   };
+
   // Filtered events
   const filteredEvents = events.filter((event) => {
     const locationMatches = locationFilter

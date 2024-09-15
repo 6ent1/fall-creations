@@ -36,13 +36,11 @@ function Navbar() {
           <li className="navbar__item">
             <button>Register</button>
           </li>
-          <li className="navbar__item">
+          {/* <li className="navbar__item">
             <button>+ Post Add</button>
-          </li>
-          <li className="navbar__item">
-            <button onClick={toggleTheme}>
-              {theme === "dark" ? "Light" : "Dark"} Mode
-            </button>
+          </li> */}
+          <li className="navbar__item" onClick={toggleTheme}>
+            <button>{theme === "dark" ? "Light" : "Dark"} Mode</button>
           </li>
         </ul>
       </div>
