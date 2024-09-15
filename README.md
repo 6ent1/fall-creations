@@ -1,4 +1,4 @@
-# Fall Creations
+# Fall Voyage
 
 A website where businesses post events related to the fall season and everyone can find something they like to do around their location.
 
